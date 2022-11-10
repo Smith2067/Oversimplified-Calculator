@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1>Oversimplified Calculator</h1>
+    <br><br>
+<div id="main">
+    <div><input type='text' id='result'></input></div>
+    <br>
+    <div id="rone">
+        <button id="clear" onclick="clean()">CE</button>
+        <button id="divide" onclick="ada('/')">/</button>
+    </div>
+    <div id="rtwo">
+        <button id="seven" onclick="ada('7')">7</button>
+        <button id="eight" onclick="ada('8')">8</button>
+        <button id="nine" onclick="ada('9')">9</button>
+        <button id="multiply" onclick="ada('*')">*</button>
+    </div>
+    <div id="rthree">
+        <button id="four" onclick="ada('4')">4</button>
+        <button id="five" onclick="ada('5')">5</button>
+        <button id="six" onclick="ada('6')">6</button>
+        <button id="subtract" onclick="ada('-')">-</button>
+    </div>
+    <div id="rfour">
+        <button id="one" onclick="ada('1')">1</button>
+        <button id="two" onclick="ada('2')">2</button>
+        <button id="three" onclick="ada('3')">3</button>
+        <button id="add" onclick="ada('+')">+</button>
+    </div>
+    <div id="rfive">
+        <button id="zero" onclick="ada('0')">0</button>
+        <button id="deci" onclick="ada('.')">.</button>
+        <button id="equal" onclick="solu()">=</button>
+    </div>
+</div>
+
+<script src='main.js'></script>
+</body>
+</html>
